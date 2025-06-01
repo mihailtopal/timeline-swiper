@@ -1,0 +1,26 @@
+:root {
+  --line-color: rgba(66, 86, 122, 0.1);
+--circle-color:rgb(209, 214, 224);
+  --border:rgba(48, 62, 88, 0.5);
+  --font-main: 'PT Sans';
+  --font-second:'Bebas Neue', sans-serif;
+  --circle-size: 530px;
+  --point-size: 12px;
+  --black-blue:rgba(66, 86, 122, 1);
+  --background:rgb(245, 246, 250);
+  --gradient-blue:rgba(56, 119, 238, 1);
+  --gradient-pink:rgba(239, 93, 168, 1);
+  --years-blue:rgb(93, 96, 240);
+  --years-pink:rgb(240, 93, 169);
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--background);
+  max-width:1440px;
+  font-family: var(--font-main), sans-serif;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}

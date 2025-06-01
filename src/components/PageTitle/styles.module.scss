@@ -1,0 +1,20 @@
+.title__container {
+  user-select: none;
+  padding-top: 170px;
+  display: flex;
+  align-items: center;
+  .gradientRectangle {
+    width: 5px;
+    height: 120px;
+    background:linear-gradient(0deg,var(--gradient-pink) 0%, var(--gradient-blue) 100%) ;
+  }
+  .title {
+    color: var(--black-blue);
+    margin: -4px 0 0 75.5px;
+    width: 353px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0;
+  }
+}

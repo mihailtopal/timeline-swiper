@@ -1,0 +1,21 @@
+.pagination__container {
+  display: flex;
+  width: 120px;
+  height: 88px;
+  margin-top: 137px;
+  margin-left: 82px;
+  flex-direction: column;
+  justify-content: space-between;
+  user-select: none;
+  .pagination__counter {
+    color: var(--black-blue);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .buttons__container {
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+}

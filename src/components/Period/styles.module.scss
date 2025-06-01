@@ -1,0 +1,22 @@
+.period__container {
+  position: relative;
+  display: flex;
+  margin-top: 96px;
+  margin-left: 217px;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 160px;
+  width: 973px;
+  justify-content: space-between;
+  user-select: none;
+
+ .firstDate {
+
+   color:var(--years-pink);
+  }
+  .secondDate {
+
+    color:var(--years-blue)
+  }
+
+}

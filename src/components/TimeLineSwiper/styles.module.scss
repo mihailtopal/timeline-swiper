@@ -1,0 +1,46 @@
+.swiper__container {
+  position: relative;
+  padding: 56px 160px 0 160px;
+  animation: fadeInUp 1.5s ease both;
+  &.replay {
+    animation: none;
+  }
+  .date {
+    color: var(--gradient-blue);
+    font-family: var(--font-second);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+  .description {
+    margin-top: 15px;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: var(--black-blue);
+  }
+}
+.buttons__container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  left: 0;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
