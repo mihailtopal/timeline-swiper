@@ -14,7 +14,9 @@
 
 ```bash
 git clone  https://github.com/mihailtopal/timeline-swipper.git
+
 cd timeline-swiper
+
 npm install
 ```
 
