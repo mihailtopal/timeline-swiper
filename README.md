@@ -13,7 +13,7 @@
 ##  Установка
 
 ```bash
-git clone  https://github.com/mihailtopal/timeline-swipper.git
+git clone  https://github.com/mihailtopal/timeline-swiper.git
 
 cd timeline-swiper
 
