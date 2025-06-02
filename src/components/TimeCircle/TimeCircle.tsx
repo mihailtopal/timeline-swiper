@@ -5,7 +5,10 @@ import { CIRCLE_RADIUS } from "../../variables";
 import styles from "./styles.module.scss";
 import { TimelinePeriod } from "../../mock/timelineData";
 
-const getPointerCoords = (index: number, count: number) => {
+const getPointerCoords = (
+  index: number,
+  count: number,
+): { x: number; y: number } => {
   const angle = 360 / count;
   const rad = angle * (index + 1) * (Math.PI / 180);
   const x = Math.cos(rad) * CIRCLE_RADIUS;
@@ -24,7 +27,7 @@ function TimeCircle({
   activeIndex,
   pointers,
 }: TimeCircleProps) {
-  const [rotationAngle, setRotationAngle] = useState(0);
+  const [rotationAngle, setRotationAngle] = useState<number>(0);
 
   useEffect(() => {
     if (!pointers.length) return;

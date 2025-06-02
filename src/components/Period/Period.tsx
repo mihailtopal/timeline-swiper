@@ -3,8 +3,8 @@ import styles from "./styles.module.scss";
 
 function Period({ label }: { label: string }) {
   const [startLabel, endLabel] = label.split(" ").map(Number);
-  const [firstDate, setFirstDate] = useState(startLabel);
-  const [secondDate, setSecondDate] = useState(endLabel);
+  const [firstDate, setFirstDate] = useState<number>(startLabel);
+  const [secondDate, setSecondDate] = useState<number>(endLabel);
 
   useEffect(() => {
     let currentFirst = firstDate;

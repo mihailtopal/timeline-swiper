@@ -12,8 +12,8 @@ import SlidePrevButton from "../Buttons/SlidePrevButton";
 export default function TimelineSwiper({ data }: { data: TimelineEvent[] }) {
   const swiperRef = useRef<SwiperType | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const [isBeginning, setIsBeginning] = useState(true);
-  const [isEnd, setIsEnd] = useState(false);
+  const [isBeginning, setIsBeginning] = useState<boolean>(true);
+  const [isEnd, setIsEnd] = useState<boolean>(false);
 
   const goPrev = () => swiperRef.current?.slidePrev();
   const goNext = () => swiperRef.current?.slideNext();

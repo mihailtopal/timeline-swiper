@@ -6,11 +6,11 @@ import Period from "../Period/Period";
 import Pagination from "../Pagination/Pagination";
 import TimeCircle from "../TimeCircle/TimeCircle";
 import TimelineSwiper from "../TimeLineSwiper/TimeLineSwiper";
-import { timelineData } from "../../mock/timelineData";
+import { timelineData, TimelinePeriod } from "../../mock/timelineData";
 
 function TimeLineMain() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [pointers, setPointers] = useState(timelineData);
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const [pointers, setPointers] = useState<TimelinePeriod[]>(timelineData);
 
   useEffect(() => {
     setPointers(timelineData);
