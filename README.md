@@ -2,6 +2,9 @@
 
 Интерактивный таймлайн с анимированными событиями, Swiper-слайдером и круговой навигацией по периодам.
 
+
+![Скриншот](./src/scrennshots/screenshot_1.JPG)
+![Скриншот](./src/scrennshots/screenshot_2.JPG)
 ##  Стек
 
 - React
