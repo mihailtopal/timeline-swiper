@@ -7,7 +7,6 @@ type Props = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   diameter?: number;
   arrowColor?: string;
   arrowSize?: number;
-  ref?: any;
 };
 
 const CircleButton: React.FC<Props> = ({
@@ -15,12 +14,10 @@ const CircleButton: React.FC<Props> = ({
   diameter,
   arrowColor,
   arrowSize,
-  ref,
   ...props
 }) => {
   return (
     <button
-      ref={ref}
       className={styles.button}
       {...props}
       style={{
