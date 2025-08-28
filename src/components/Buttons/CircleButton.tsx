@@ -21,7 +21,7 @@ const CircleButton: React.FC<Props> = ({
       className={styles.button}
       {...props}
       style={{
-        rotate: direction === "right" ? "180deg" : "0",
+        rotate: direction === "right" ? "180deg" : "10deg",
         width: diameter || 50,
         height: diameter || 50,
         ...props.style,
